@@ -1,5 +1,9 @@
-﻿namespace WebApplication1.Models
+﻿using System.ComponentModel.DataAnnotations.Schema;
+
+namespace WebApplication1.Models
 {
+
+    [Table("Comments")]
     public class Comment
     {
         public int Id { get; set; }
